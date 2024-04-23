@@ -1,0 +1,63 @@
+#dishes-section {
+  position: relative;
+
+  .owl-nav {
+    .owl-prev,
+    .owl-next {
+      position: absolute;
+      top: -85px;
+      width: 45px;
+      height: 40px;
+      padding: 0;
+      padding-bottom: 5px !important;
+      margin: 0;
+      font-size: 35px;
+      line-height: 0;
+      letter-spacing: 0em;
+      border: 1px solid #bb2339;
+      border-radius: 25%;
+      background-color: transparent;
+    }
+
+    .owl-next:hover,
+    .owl-prev:hover {
+      background: #bb2339;
+      border: 1px solid #bb2339;
+    }
+
+    .owl-next {
+      right: 0;
+    }
+
+    .owl-prev {
+      right: 60px;
+    }
+  }
+}
+
+#customers-section {
+  
+    .owl-nav {
+      .owl-prev,
+      .owl-next {
+        width: 45px;
+        height: 40px;
+        padding: 0;
+        padding-bottom: 5px !important;
+        margin: 10px;
+        font-size: 35px;
+        line-height: 0;
+        letter-spacing: 0em;
+        border: 1px solid #bb2339;
+        border-radius: 25%;
+        background-color: transparent;
+      }
+  
+      .owl-next:hover,
+      .owl-prev:hover {
+        background: #bb2339;
+        border: 1px solid #bb2339;
+      }  
+    }
+  }
+  
